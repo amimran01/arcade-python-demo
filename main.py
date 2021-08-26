@@ -6,4 +6,6 @@ Test code
 """
 name = os.environ['PYTHON_VAR_username']
 ip = get('https://api.ipify.org').text
-print(f'Hello {name}, your public IP is: {ip}')
+for x in range(100):
+  print(f'Hello {name}, your public IP is: {ip}')
+
